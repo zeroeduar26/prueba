@@ -1,0 +1,171 @@
+
+/*Servicios*/
+
+.cont2{
+    display: flex;
+    background-image: url(../Img/Fondo_gris.jpg) ;
+    background-size: cover;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+
+.galeria-port{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.servimg,
+.servim{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    text-align: center;
+    border-radius: 2%;
+}
+
+.servi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95%;
+}
+.servi .servimg section h3,
+.servi .servimg section h4,
+.servim h3, h4{
+    color: rgb(108, 29, 30);
+}
+
+.servimg{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servimg section{
+    background: rgba(255, 255, 255, 0.563);
+    width: 90%;  
+    margin: 5px;
+    border-radius: 5px;  
+    color: rgb(7, 5, 50)  
+}
+.servimg .seccionlista2{
+    margin-top: 70px;
+}
+
+.servimg .secciontitulo{
+    color: rgb(7, 5, 50);
+}
+.servimg section ul{
+    list-style: outside;
+    text-align: left;
+    margin-left: 25px;
+}
+/*-----------------------------------------*/
+/*Imagenes de fondo*/
+
+.servi .img2{
+    background: url(../Img/foto11.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.servi .img5{
+    background: url(../Img/foto7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.servi .img3{
+    background: url(../Img/foto8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.servi .img4{
+    background: url(../Img/foto3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.servi .img6{
+    background: url(../Img/foto9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.servi .img7{
+    background: url(../Img/foto10.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*-------------------------------------------------------*/
+
+.servim{
+    width: 93%;
+    background: url(../Img/foto2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.servim .serviciotexto{
+    color: rgb(7, 5, 50);
+    background: rgba(255, 255, 255, 0.563);
+    border-radius: 5px;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.servim .servilista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.servim .servilista section{
+    background: rgba(255, 255, 255, 0.563);
+    width: 30%;  
+    margin: 5px;
+    border-radius: 5px;     
+}
+.servim .servilista section ul{
+    list-style: outside;
+    text-align: left;
+    margin-left: 25px;
+    color: rgb(7, 5, 50);
+}
+/*-------------------------------------------------------*/
+
+@media screen and (max-width: 1000px){
+
+    /*Servicios*/
+    .galeria-port{
+        align-items: center;
+        margin-left: 15px;
+    }
+
+    .galeria-port .servim .servilista{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .galeria-port .servim .servilista section{
+        width: 90%;
+        align-items: center;
+    }
+
+    .servimg{
+        width: 100%;
+    }
+
+    .servimg .seccionlista2{
+        margin-top: 0;
+    }
+
+/*----------------------------------------------------------*/
+}

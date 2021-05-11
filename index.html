@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conecta</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+</head>
+
+<body>
+    <!--Encabezado de la pagina-->
+    <header>
+        <nav class="prueba">
+            <div class="contenido-encabezado">
+                <div class="content">
+                </div>
+            </div>
+        </nav>
+        <nav class="prueba1">
+            <input id="nav-toggle" type="checkbox">
+            <div class="logo">
+                <img src="./Img/conectatra.png" alt="">
+            </div>
+            <ul class="links">
+                <!--menu de opciones-->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="#contactosForm">Contactos</a></li>
+                <li><a href="paginas/blog.html">Blog</a></li>
+            </ul>
+            <label for="nav-toggle" class="icon-burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <div class="contenedor">
+            <div class="container cont1">
+                <br>
+                <div class="conten1">
+                    <div class="container-slider">
+                        <div class="slider" id="slider">
+                            <div class="slider-section">
+                                <img src="Img/WhatsApp Image 2021-03-25 at 10.42.50 AM.jpeg" alt="" class="slider-img">
+                            </div>
+                            <div class="slider-section">
+                                <img src="Img/foto6.jfif" alt="" class="slider-img">
+                            </div>
+                            <div class="slider-section">
+                                <img src="Img/foto3.jpg" alt="" class="slider-img">
+                            </div>
+                            <div class="slider-section">
+                                <img src="Img/foto4.jfif" alt="" class="slider-img">
+                            </div>
+                        </div>
+                        <div class="slider-btn slider-btn-izquierda" id="btn-izquierdo">&#60;</div>
+                        <div class="slider-btn slider-btn-derecha" id="btn-derecho">&#62;</div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="conten2">
+                    <div class="contitulo">
+                        <h3>Misión</h3>
+                        <p>Conectar al cliente con sus objetivos a través de soluciones estratégicas
+                            que permitan que sus proyectos se desarrollen de manera segura y exitosa.</p>
+                    </div>
+
+                    <div class="contitulo">
+                        <h3>Visión</h3>
+                        <p>Ser reconocidos a nivel nacional e internacional, como la empresa especializada
+                            en consultorías, empleando herramientas innovadoras y personal altamente calificado. </p>
+                    </div>
+                </div>
+                <div class="conten3">
+                    <br>
+                    <h3>Valores</h3>
+                    <p class="parraf"><strong>Responsabilidad: </strong>En Conecta consideramos que este valor es
+                        clave cuando
+                        realizamos
+                        labores y las cumplimos de manera eficiente en el tiempo requerido.</p>
+
+                    <p class="parraf"><strong>Integridad: </strong>Como empresa nos mostramos al mundo como lo que
+                        somos, ni más ni menos de
+                        eso y se realizará siempre todas sus actividades bajo la moral y transparencia
+                        correspondiente. </p>
+
+                    <p class="parraf"><strong>Compromiso: </strong>Nuestro compromiso es conectar con el cliente y
+                        alcanzar sus objetivos, guiándolo hacia un
+                        camino seguro y exitoso a través de consultorías y soluciones integrales. </p>
+
+                    <p class="parraf"><strong>Confidencialidad: </strong>Entendemos la importancia de la seguridad
+                        sus datos e ideas, por lo cual en Conecta tenemos el
+                        compromiso de no difundir ningún tipo de información relacionada con los clientes.</p>
+
+                    <p class="parraf"><strong>Profesionalismo: </strong>Nos comprometemos a prestar nuestro servicio
+                        con altos estándares
+                        de calidad, mediante profesionales altamente éticos y calificados.</p>
+                    <br>
+                </div>
+                <br>
+            </div>
+
+            <div class="container cont3">
+                <h2 id="contactosForm">Contáctanos</h2>
+                <div class="contacto">
+                    <div class="formulario form2">
+                        <h4>Información</h4>
+
+                        <img src="Img/conectatra.png" alt="">
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio labore,
+                            veniam nesciunt debitis doloremque sed temporibus dolor et quod recusandae.</p>
+
+                        <div class="redes">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-youtube"></i></a>
+                        </div>
+
+                        <p>Conecta</p>
+
+
+                    </div>
+                    <div class="formulario form1">
+                        <form action="correo.php" method="POST">
+                            <div class="text-1">
+                                <p class="label-form">
+                                    <label>Nombre</label>
+                                    <input id="fullname" type="text" name="nombre" required>
+                                </p>
+                                <p class="label-form">
+                                    <label>Email</label>
+                                    <input id="email" type="text" name="email" required>
+                                </p>
+                                <p class="label-form">
+                                    <label>Telefono</label>
+                                    <input id="telefono" type="tel" name="telefono" required>
+                                </p>
+                                <p class="label-form">
+                                    <label>Asunto</label>
+                                    <input id="asusnto" type="text" name="asunto">
+                                </p>
+                            </div>
+                            <div class="text-2">
+                                <p class="block">
+                                    <label>Mensaje</label>
+                                    <textarea id="mensaje" name="mensaje" rows="1" required></textarea>
+                                </p>
+                                <p class="block">
+                                    <button type="submit" name="enviar">Enviar</button>
+                                </p>
+                            </div>
+
+
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="foote-principal">
+            <div class="foote left">
+                <section>
+                    <img src="Img/CONECTA CIRCULO.png" alt="">
+                </section>
+                <section>
+                    <p>Edificio Trade Building</p>
+                    <p>Torre A 5to Piso oficina 526</p>
+                    <p>Guayaquil, Ecuador</p>
+                </section>
+            </div>
+            <div class="foote central">
+                <p>Telf.</p>
+                <p>099 407 5437</p>
+            </div>
+            <div class="foote redes-sociales">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-envelope"></i></a>
+                <a href="#"><i class="fa fa-linkedin-square"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-botton">
+            <p>All Right reserved by &copy;Zker | Eduardo Zuñiga </p>
+        </div>
+    </footer>
+</body>
+
+</html>
